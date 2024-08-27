@@ -1,0 +1,1810 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #081b29;
+    color: black;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 80px;
+
+}
+
+header .logo h1 {
+    margin: 0;
+    color: white;
+    cursor: pointer;
+}
+
+header .logo img {
+    height: 100px;
+    width: 150px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+
+header nav ul li {
+    margin-left: 20px;
+
+
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    text-align: center;
+}
+
+#about {
+    background-color: #fff;
+}
+
+#services {
+    background-color: #eee;
+    background-position: top 25% right 0;
+}
+
+#services .service {
+    margin-bottom: 20px;
+}
+
+#contact {
+    background-color: #fff;
+}
+
+/* Footer Styles */
+/* footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+} */
+
+
+/* General styles for the section */
+#about {
+    background-color: #f9f9f9;
+    /* Light grey background */
+    padding: 40px 20px;
+    /* Space inside the section */
+    border-radius: 10px;
+    /* Rounded corners */
+    max-width: 800px;
+    /* Maximum width of the section */
+    margin: 0 auto;
+    /* Center the section horizontally */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow */
+}
+
+/* Style for the heading */
+#about h2 {
+    color: #333;
+    /* Dark grey text color */
+    font-family: 'Arial', sans-serif;
+    /* Font family */
+    font-size: 2em;
+    /* Font size */
+    text-align: center;
+    /* Center align the text */
+    margin-bottom: 20px;
+    /* Space below the heading */
+}
+
+/* Style for the paragraph */
+#about p {
+    color: #666;
+    /* Grey text color */
+    font-family: 'Georgia', serif;
+    /* Font family */
+    font-size: 1.2em;
+    /* Font size */
+    line-height: 1.6;
+    /* Line height for readability */
+    text-align: center;
+    /* Center align the text */
+    margin-bottom: 0;
+    /* No space below the paragraph */
+}
+
+
+/* General styles for the section */
+#services {
+    background-color: #ffffff;
+    /* White background */
+    padding: 50px 20px;
+    /* Space inside the section */
+    max-width: 1000px;
+    /* Maximum width of the section */
+    margin: 0 auto;
+    /* Center the section horizontally */
+}
+
+/* Style for the section heading */
+#services h2 {
+    color: #333;
+    /* Dark grey text color */
+    font-family: 'Arial', sans-serif;
+    /* Font family */
+    font-size: 2.5em;
+    /* Font size */
+    text-align: center;
+    /* Center align the text */
+    margin-bottom: 30px;
+    /* Space below the heading */
+}
+
+/* Style for individual service blocks */
+.service {
+    background-color: #f5f5f5;
+    /* Light grey background for each service */
+    padding: 20px;
+    /* Space inside each service block */
+    border-radius: 8px;
+    /* Rounded corners */
+    margin-bottom: 20px;
+    /* Space between service blocks */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow */
+    transition: transform 0.3s ease;
+    /* Smooth hover effect */
+}
+
+/* Hover effect for service blocks */
+.service:hover {
+    transform: translateY(-5px);
+    /* Slightly lift the block on hover */
+}
+
+/* Style for service headings */
+.service h3 {
+    color: #0073e6;
+    /* Blue text color */
+    font-family: 'Arial', sans-serif;
+    /* Font family */
+    font-size: 1.8em;
+    /* Font size */
+    margin-bottom: 10px;
+    /* Space below the heading */
+}
+
+/* Style for service paragraphs */
+.service p {
+    color: #555;
+    /* Dark grey text color */
+    font-family: 'Georgia', serif;
+    /* Font family */
+    font-size: 1.1em;
+    /* Font size */
+    line-height: 1.6;
+    /* Line height for readability */
+
+}
+
+
+
+/* General styles for the section */
+#contact {
+    background-color: #0073e6;
+    /* Blue background color */
+    color: #ffffff;
+    /* White text color */
+    padding: 40px 20px;
+    /* Space inside the section */
+    border-radius: 10px;
+    /* Rounded corners */
+    max-width: 600px;
+    /* Maximum width of the section */
+    margin: 0 auto;
+    /* Center the section horizontally */
+    text-align: center;
+    /* Center align all text */
+}
+
+/* Style for the section heading */
+#contact h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    /* Font family */
+    font-size: 2.2em;
+    /* Font size */
+    margin-bottom: 20px;
+    /* Space below the heading */
+}
+
+/* Style for the contact details */
+#contact p {
+    font-family: Arial, Helvetica, sans-serif;
+    /* Font family */
+    font-size: 1.2em;
+    /* Font size */
+    margin: 10px 0;
+    /* Space above and below each paragraph */
+    line-height: 1.5;
+    /* Line height for readability */
+}
+
+/* Style for the email and phone links */
+#contact p a {
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    /* White text color */
+    /* text-decoration: underline; */
+    /* Underlined text */
+    font-weight: bold;
+    /* Bold text */
+    transition: color 0.3s ease;
+    /* Smooth transition for hover effect */
+}
+
+/* Hover effect for email and phone links */
+#contact p a:hover {
+    color: #ffcc00;
+    /* Yellow color on hover */
+}
+
+
+
+/* General styles for the footer */
+footer {
+    background-color: blue;
+    /* Dark grey background */
+    color: #ffffff;
+    /* White text color */
+    padding: 20px;
+    /* Space inside the footer */
+    text-align: center;
+    /* Center align all text */
+    border-top: 2px solid #0073e6;
+    /* Blue top border */
+    font-family: 'Arial', sans-serif;
+    /* Font family */
+}
+
+/* Style for the paragraph */
+footer p {
+    margin: 0;
+    /* Remove default margin */
+    font-size: 1em;
+    /* Font size */
+    line-height: 1.5;
+    /* Line height for readability */
+}
+
+
+/* General styles for the section */
+#find-properties {
+    background-color: #f4f4f4;
+    /* Light grey background */
+    padding: 50px 20px;
+    /* Space inside the section */
+    max-width: 1200px;
+    /* Maximum width of the section */
+    margin: 0 auto;
+    /* Center the section horizontally */
+    justify-items: flex-end;
+
+
+}
+
+/* Style for the section heading */
+#find-properties h2 {
+    color: #333;
+    /* Dark grey text color */
+    font-family: 'Arial', sans-serif;
+    /* Font family */
+    font-size: 2.5em;
+    /* Font size */
+    text-align: center;
+    /* Center align the text */
+    margin-bottom: 40px;
+    /* Space below the heading */
+}
+
+/* Style for the city list */
+.city-list {
+    display: flex;
+    /* Align cities in a row */
+    flex-wrap: wrap;
+    /* Wrap cities to the next line if needed */
+    justify-content: space-between;
+    /* Space between city blocks */
+}
+
+/* Style for individual city blocks */
+.city {
+    background-color: #ffffff;
+    /* White background for each city */
+    padding: 20px;
+    /* Space inside each city block */
+    border-radius: 10px;
+    /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow */
+    width: 48%;
+    /* Width of each city block */
+    margin-bottom: 20px;
+    /* Space below each city block */
+    text-align: center;
+    /* Center align all text */
+    transition: transform 0.3s ease;
+    /* Smooth hover effect */
+}
+
+/* Hover effect for city blocks */
+.city:hover {
+    transform: translateY(-5px);
+    /* Slightly lift the block on hover */
+}
+
+/* Style for city headings */
+.city h3 {
+    color: #0073e6;
+    /* Blue text color */
+    font-family: 'Arial', sans-serif;
+    /* Font family */
+    font-size: 1.8em;
+    /* Font size */
+    margin-bottom: 10px;
+    /* Space below the heading */
+}
+
+/* Style for city paragraphs */
+.city p {
+    color: #555;
+    /* Dark grey text color */
+    font-family: 'Georgia', serif;
+    /* Font family */
+    font-size: 1.1em;
+    /* Font size */
+    line-height: 1.6;
+    /* Line height for readability */
+}
+
+/* Style for the links */
+.city a {
+    color: #0073e6;
+    /* Blue text color */
+    text-decoration: none;
+    /* Remove underline */
+    font-weight: bold;
+    /* Bold text */
+    display: inline-block;
+    /* Allow padding */
+    padding: 10px 15px;
+    /* Space inside the link */
+    border: 2px solid #0073e6;
+    /* Blue border */
+    border-radius: 5px;
+    /* Rounded corners */
+    transition: background-color 0.3s ease, color 0.3s ease;
+    /* Smooth hover effect */
+}
+
+/* Hover effect for the links */
+.city a:hover {
+    background-color: #0073e6;
+    /* Blue background on hover */
+    color: #ffffff;
+    /* White text color on hover */
+}
+
+
+
+/* General section styling */
+.tf-section {
+    padding: 60px 0;
+    /* Section padding */
+    background-color: #f8f8f8;
+    /* Light grey background color */
+}
+
+/* Container styling */
+.cl-container {
+    max-width: 1200px;
+    /* Maximum width of the container */
+    margin: 0 auto;
+    /* Center the container */
+    padding: 0 15px;
+    /* Padding on the sides */
+}
+
+/* Heading section */
+.heading-section h2 {
+    font-size: 2.5em;
+    /* Font size for the heading */
+    color: #333;
+    /* Dark grey text color */
+    margin-bottom: 20px;
+    /* Space below the heading */
+}
+
+.heading-section .text {
+    font-size: 1.2em;
+    /* Font size for the text */
+    color: #777;
+    /* Medium grey text color */
+    margin: auto;
+}
+
+/* Cities items container */
+.inner {
+    display: flex;
+    /* Flexbox layout for cities items */
+    flex-wrap: wrap;
+    /* Wrap items to the next line if needed */
+    justify-content: space-between;
+    /* Space between items */
+}
+
+/* Individual cities item styling */
+.cities-item {
+    position: relative;
+    /* Positioning for overlay content */
+    width: 31%;
+    /* Width of each city item */
+    margin-bottom: 20px;
+    /* Space between city items */
+    border-radius: 10px;
+    /* Rounded corners */
+    overflow: hidden;
+    /* Hide overflow for rounded corners */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* Smooth hover effect */
+}
+
+/* Image styling */
+.cities-item img {
+    width: 100%;
+    /* Full width image */
+    height: auto;
+    /* Maintain aspect ratio */
+    display: block;
+    /* Display as block to remove gaps */
+}
+
+/* Overlay content styling */
+.cities-item .content {
+    position: absolute;
+    /* Position overlay content */
+    bottom: 20px;
+    /* Position 20px from the bottom */
+    left: 20px;
+    /* Position 20px from the left */
+    color: #fff;
+    /* White text color */
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+    /* Text shadow for better readability */
+}
+
+.cities-item h4 {
+    margin: 5px 0 0;
+    /* Margin above and below the heading */
+    font-size: 1.5em;
+    /* Font size for the city name */
+}
+
+.cities-item p {
+    margin: 0;
+    /* Remove margin */
+    font-size: 1em;
+    /* Font size for the properties count */
+}
+
+/* Arrow button styling */
+.cities-item a.button-arrow-right {
+    position: absolute;
+    /* Position the button over the image */
+    top: 50%;
+    /* Center vertically */
+    right: 20px;
+    /* Position 20px from the right */
+    transform: translateY(-50%);
+    /* Adjust for centering */
+    color: #fff;
+    /* White icon color */
+    font-size: 1.5em;
+    /* Font size for the arrow icon */
+    text-decoration: none;
+    /* Remove underline */
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent background */
+    padding: 10px;
+    /* Padding around the icon */
+    border-radius: 50%;
+    /* Circular button */
+    transition: background-color 0.3s ease;
+    /* Smooth hover effect */
+}
+
+.cities-item a.button-arrow-right:hover {
+    background-color: #0073e6;
+    /* Blue background on hover */
+}
+
+/* Hover effect for cities items */
+.cities-item:hover {
+    transform: translateY(-5px);
+    /* Slightly lift the block on hover */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    /* Add a shadow effect */
+}
+
+
+/* Navigation link styling */
+nav li a {
+    text-decoration: none;
+    /* Remove underline */
+    color: #333;
+    /* Default text color */
+    padding: 10px 15px;
+    /* Padding around the link */
+    display: inline-block;
+    /* Align with other elements */
+    font-size: 16px;
+    /* Font size */
+}
+
+/* Active link styling */
+nav li a.active {
+    color: #0073e6;
+    /* Color for the active link */
+    font-weight: bold;
+    /* Bold text for active link */
+    border-bottom: 2px solid #0073e6;
+    /* Underline for active link */
+}
+
+/* Hero section styling */
+.tf-section.flat-cities {
+    padding: 50px 20px;
+    /* Padding inside the section */
+}
+
+.heading-section h2 {
+    font-size: 2.5em;
+    /* Font size for the heading */
+    margin-bottom: 20px;
+    /* Space below the heading */
+}
+
+.heading-section .text {
+    font-size: 1.2em;
+    /* Font size for the text */
+    color: #666;
+    /* Text color */
+}
+
+/* Cities items styling */
+.cities-item {
+    position: relative;
+    /* Position for absolute children */
+    margin-bottom: 30px;
+    /* Space below each item */
+}
+
+.cities-item img {
+    width: 100%;
+    /* Full width of container */
+    height: auto;
+    /* Maintain aspect ratio */
+}
+
+.cities-item .content {
+    position: absolute;
+    /* Overlay on image */
+    bottom: 20px;
+    /* Position at the bottom */
+    left: 20px;
+    /* Position from the left */
+    color: #fff;
+    /* White text color */
+}
+
+.cities-item .content p {
+    margin: 0;
+    /* Remove margin */
+}
+
+.cities-item .content h4 {
+    font-size: 1.5em;
+    /* Font size for the heading */
+    margin: 10px 0;
+    /* Margin above and below */
+}
+
+.button-arrow-right {
+    position: absolute;
+    /* Position on image */
+    right: 20px;
+    /* Position from the right */
+    bottom: 20px;
+    /* Position from the bottom */
+    color: #0073e6;
+    /* Color for the arrow */
+    font-size: 1.5em;
+    /* Font size for the icon */
+    text-decoration: none;
+    /* Remove underline */
+}
+
+/* General Styles for the Section */
+.about-us {
+    padding: 50px 20px;
+    /* Adjust padding as needed */
+    background-color: #f9f9f9;
+    /* Light background color for contrast */
+}
+
+.container {
+    max-width: 1200px;
+    /* Set a maximum width for the container */
+    margin: 0 auto;
+    /* Center the container */
+    padding: 0 15px;
+    /* Add some padding inside the container */
+}
+
+.about-content {
+    margin: 0 auto;
+    max-width: 800px;
+    /* Set a maximum width for content */
+    padding: 20px;
+    /* Add padding around the content */
+    background-color: #fff;
+    /* White background for the content area */
+    border-radius: 8px;
+    /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow for depth */
+}
+
+/* Heading Styles */
+.about-content h2 {
+    font-size: 2.5em;
+    /* Larger font size for the main heading */
+    margin-bottom: 20px;
+    /* Space below the heading */
+    color: #333;
+    /* Dark color for the heading */
+}
+
+.about-content h3 {
+    font-size: 1.8em;
+    /* Slightly smaller than main heading */
+    margin-top: 20px;
+    /* Space above the subheading */
+    margin-bottom: 10px;
+    /* Space below the subheading */
+    color: #555;
+    /* Slightly lighter color for subheadings */
+}
+
+/* Paragraph and List Styles */
+.about-content p {
+    font-size: 1em;
+    /* Standard font size for paragraphs */
+    line-height: 1.6;
+    /* Line height for readability */
+    margin-bottom: 20px;
+    /* Space below each paragraph */
+}
+
+.about-content ul {
+    padding-left: 20px;
+    /* Indentation for list items */
+    margin-bottom: 20px;
+    /* Space below the list */
+}
+
+.about-content li {
+    margin-bottom: 10px;
+    /* Space below each list item */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .about-content {
+        padding: 15px;
+        /* Adjust padding on smaller screens */
+    }
+
+    .about-content h2 {
+        font-size: 2em;
+        /* Smaller heading size on smaller screens */
+    }
+
+    .about-content h3 {
+        font-size: 1.5em;
+        /* Smaller subheading size on smaller screens */
+    }
+}
+
+
+
+
+/* FAQ Section Styling */
+.faq-section {
+    padding: 50px 20px;
+    /* Padding around the section */
+    background-color: #f9f9f9;
+    /* Light background color */
+}
+
+.faq-section .heading-section {
+    margin-bottom: 30px;
+    /* Space below the heading section */
+}
+
+.faq-section .heading-section h2 {
+    font-size: 2.5em;
+    /* Font size for the heading */
+    color: #333;
+    /* Dark text color */
+    margin-bottom: 10px;
+    /* Space below the heading */
+}
+
+.faq-section .heading-section p {
+    font-size: 1.2em;
+    /* Font size for the paragraph */
+    color: #666;
+    /* Medium text color */
+}
+
+.faq-list {
+    max-width: 800px;
+    /* Maximum width of the FAQ list */
+    margin: 0 auto;
+    /* Center align the FAQ list */
+}
+
+.faq-item {
+    margin-bottom: 20px;
+    /* Space between FAQ items */
+}
+
+.faq-question {
+    font-size: 1.2em;
+    /* Font size for the question */
+    color: #0073e6;
+    /* Blue color for the question */
+    cursor: pointer;
+    /* Change cursor to pointer on hover */
+    margin-bottom: 10px;
+    /* Space below the question */
+}
+
+.faq-answer {
+    font-size: 1em;
+    /* Font size for the answer */
+    color: #444;
+    /* Dark text color */
+    margin: 0;
+    /* Remove default margin */
+    padding: 0 0 0 20px;
+    /* Indent the answer text */
+}
+
+
+/* Contact Section Styling */
+.contact-section {
+    padding: 50px 20px;
+    /* Padding around the section */
+    background-color: #f4f4f4;
+    /* Light gray background */
+}
+
+.contact-section .heading-section {
+    margin-bottom: 30px;
+    /* Space below the heading section */
+}
+
+.contact-section .heading-section h2 {
+    font-size: 2.5em;
+    /* Font size for the heading */
+    color: #333;
+    /* Dark text color */
+    margin-bottom: 10px;
+    /* Space below the heading */
+}
+
+.contact-section .heading-section p {
+    font-size: 1.2em;
+    /* Font size for the paragraph */
+    color: #666;
+    /* Medium text color */
+}
+
+.contact-form {
+    max-width: 600px;
+    /* Maximum width of the form */
+    margin: 0 auto;
+    /* Center align the form */
+    background-color: #fff;
+    /* White background for the form */
+    padding: 20px;
+    /* Padding inside the form */
+    border-radius: 8px;
+    /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Shadow effect */
+}
+
+.contact-form .form-group {
+    margin-bottom: 20px;
+    /* Space between form groups */
+}
+
+.contact-form .form-group label {
+    display: block;
+    /* Make label block-level */
+    font-size: 1.1em;
+    /* Font size for the label */
+    color: #333;
+    /* Dark text color */
+    margin-bottom: 5px;
+    /* Space below the label */
+}
+
+.contact-form .form-group input,
+.contact-form .form-group textarea {
+    width: 100%;
+    /* Full width input and textarea */
+    padding: 10px;
+    /* Padding inside input and textarea */
+    font-size: 1em;
+    /* Font size for input and textarea text */
+    border: 1px solid #ccc;
+    /* Light border */
+    border-radius: 4px;
+    /* Rounded corners */
+}
+
+.contact-form .form-group textarea {
+    resize: vertical;
+    /* Allow vertical resizing only */
+}
+
+.contact-form .btn {
+    display: inline-block;
+    /* Inline block to allow padding */
+    padding: 15px 30px;
+    /* Padding inside the button */
+    font-size: 1.2em;
+    /* Font size for the button text */
+    color: #fff;
+    /* White text color */
+    background-color: #0073e6;
+    /* Blue background color */
+    border: none;
+    /* Remove default border */
+    border-radius: 5px;
+    /* Rounded corners */
+    text-decoration: none;
+    /* Remove underline */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    /* Smooth hover effects */
+    cursor: pointer;
+    /* Change cursor to pointer on hover */
+    text-align: center;
+    /* Center align text */
+}
+
+.contact-form .btn:hover {
+    background-color: #005bb5;
+    /* Darker blue background on hover */
+    transform: translateY(-3px);
+    /* Slightly lift the button on hover */
+}
+
+
+/* General Footer Styling */
+.footer {
+    background-color: #333;
+    /* Dark background for the footer */
+    color: #fff;
+    /* White text color */
+    padding: 40px 20px;
+    /* Padding around the footer */
+    font-family: Arial, sans-serif;
+    /* Font family for the footer */
+}
+
+.footer-inner {
+    max-width: 1200px;
+    /* Maximum width of the footer content */
+    margin: 0 auto;
+    /* Center align the footer */
+}
+
+.footer-inner-wrap {
+    display: flex;
+    /* Flexbox layout for footer sections */
+    flex-wrap: wrap;
+    /* Wrap sections if needed */
+}
+
+.top-footer {
+    display: flex;
+    /* Flexbox layout for top footer */
+    justify-content: space-between;
+    /* Space between logo and social icons */
+    align-items: center;
+    /* Center align items vertically */
+    margin-bottom: 40px;
+    /* Space below top footer */
+}
+
+.logo-footer img {
+    height: 120px;
+    /* Height of the footer logo */
+}
+
+.wg-social {
+    display: flex;
+    /* Flexbox layout for social icons */
+    align-items: center;
+    /* Center align items vertically */
+}
+
+.wg-social span {
+    margin-right: 20px;
+    /* Space between the text and social icons */
+    font-size: 1.2em;
+    /* Font size for the "Follow Us" text */
+}
+
+.list-social {
+    list-style: none;
+    /* Remove default list styling */
+    display: flex;
+    /* Flexbox layout for social icons */
+    margin: 0;
+    /* Remove default margin */
+    padding: 0;
+    /* Remove default padding */
+}
+
+.list-social li {
+    margin-left: 15px;
+    /* Space between social icons */
+}
+
+.list-social a {
+    color: #fff;
+    /* White color for social icons */
+    font-size: 1.5em;
+    /* Font size for social icons */
+    text-decoration: none;
+    /* Remove underline */
+}
+
+.center-footer {
+    display: flex;
+    /* Flexbox layout for center footer */
+    flex-wrap: wrap;
+    /* Wrap sections if needed */
+    gap: 20px;
+    /* Space between sections */
+}
+
+.footer-cl-1,
+.footer-cl-2,
+.footer-cl-3,
+.footer-cl-4,
+.footer-cl-5,
+.footer-cl-6 {
+    flex: 1 1 200px;
+    /* Flex properties for footer columns */
+}
+
+.ft-title {
+    font-size: 1.5em;
+    /* Font size for section titles */
+    margin-bottom: 15px;
+    /* Space below the title */
+}
+
+.form-subscribe {
+    display: flex;
+    /* Flexbox layout for the form */
+    gap: 10px;
+    /* Space between input and button */
+}
+
+.form-subscribe .email input {
+    flex: 1;
+    /* Full width input */
+    padding: 10px;
+    /* Padding inside the input */
+    border: 1px solid #ccc;
+    /* Light border */
+    border-radius: 4px;
+    /* Rounded corners */
+    font-size: 1em;
+    /* Font size for input text */
+}
+
+.button-submit .tf-button-bg {
+    background-color: #0073e6;
+    /* Blue background color */
+    border: none;
+    /* Remove default border */
+    color: #fff;
+    /* White text color */
+    padding: 10px 20px;
+    /* Padding inside the button */
+    border-radius: 4px;
+    /* Rounded corners */
+    font-size: 1em;
+    /* Font size for button text */
+    cursor: pointer;
+    /* Pointer cursor on hover */
+    transition: background-color 0.3s ease;
+    /* Smooth background color change */
+}
+
+.button-submit .tf-button-bg:hover {
+    background-color: #005bb5;
+    /* Darker blue background on hover */
+}
+
+.navigation-menu-footer {
+    list-style: none;
+    /* Remove default list styling */
+    padding: 0;
+    /* Remove default padding */
+    margin: 0;
+    /* Remove default margin */
+}
+
+.navigation-menu-footer li {
+    margin-bottom: 10px;
+    /* Space below list items */
+}
+
+.navigation-menu-footer a {
+    color: #fff;
+    /* White color for links */
+    text-decoration: none;
+    /* Remove underline */
+    font-size: 1em;
+    /* Font size for links */
+}
+
+.navigation-menu-footer a:hover {
+    text-decoration: underline;
+    /* Underline on hover */
+}
+
+/* .map-containerkundan{
+    padding: 50px;
+    background-color: #0056b3;
+}
+
+
+.map-containerkundan iframe{
+       
+} */
+/* FAQ Section Styling */
+.faq {
+    background-color: #f9f9f9;
+    /* Light background for the FAQ section */
+    padding: 40px 20px;
+    /* Padding around the FAQ section */
+    font-family: Arial, sans-serif;
+    /* Font family for the FAQ section */
+}
+
+.faq-container {
+    max-width: 800px;
+    /* Maximum width of the FAQ content */
+    margin: 0 auto;
+    /* Center align the FAQ content */
+}
+
+.faq h2 {
+    text-align: center;
+    /* Center align the FAQ heading */
+    margin-bottom: 30px;
+    /* Space below the heading */
+}
+
+.faq-item {
+    margin-bottom: 15px;
+    /* Space between FAQ items */
+}
+
+.faq-question {
+    background-color: #0073e6;
+    /* Blue background for the question button */
+    color: #fff;
+    /* White text color */
+    border: none;
+    /* Remove default border */
+    padding: 15px;
+    /* Padding inside the button */
+    width: 100%;
+    /* Full width button */
+    text-align: left;
+    /* Align text to the left */
+    font-size: 1.2em;
+    /* Font size for the question */
+    cursor: pointer;
+    /* Pointer cursor on hover */
+    border-radius: 4px;
+    /* Rounded corners */
+    transition: background-color 0.3s ease;
+    /* Smooth background color change */
+}
+
+.faq-question:hover {
+    background-color: #005bb5;
+    /* Darker blue background on hover */
+}
+
+.faq-answer {
+    display: none;
+    /* Initially hide the answer */
+    padding: 15px;
+    /* Padding inside the answer */
+
+    border: 1px solid #ddd;
+    /* Light border around the answer */
+    border-top: none;
+    /* No border at the top to blend with the button */
+    border-radius: 0 0 4px 4px;
+    /* Rounded corners at the bottom */
+    background-color: #fff;
+    /* White background for the answer */
+}
+
+
+.about-us {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+}
+
+.about-us .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* #contact{
+    height: 40px;
+} */
+
+.about-content {
+    text-align: left;
+}
+
+.about-content h2 {
+    font-size: 36px;
+    color: #333;
+    /* margin-bottom: 20px; */
+    text-align: center;
+}
+
+.about-content h3 {
+    font-size: 28px;
+    color: #555;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.about-content p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.about-content ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.about-content ul li {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.about-content a {
+    color: #0066cc;
+    text-decoration: underline;
+}
+
+.about-content a:hover {
+    text-decoration: none;
+    color: #004080;
+}
+
+
+
+
+.contact-section {
+    padding: 50px 20px;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contact-section p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+
+/* ======================================================================================================== */
+
+.card-main {
+    padding: 20px 30px;
+}
+
+.card-super {
+    width: 85%;
+    padding: 20px;
+    border: 2px solid rgb(59, 97, 174);
+    margin-left: 30px;
+    display: grid;
+    display: flex;
+}
+
+.card-img {
+    background-image: url("./images/8.jpg");
+    height: 200px;
+    width: 300px;
+}
+
+.firstcard-img {
+    display: flex;
+    padding: 100px 100px;
+    justify-content: space-around;
+}
+
+/* dsggfuhijkep[rf
+ */
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+} */
+
+.product-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.product-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    padding: 20px;
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.product-title {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.product-description {
+    font-size: 1em;
+    color: #666;
+    margin: 10px 0;
+}
+
+.product-price {
+    font-size: 1.2em;
+    color: #e67e22;
+    margin: 10px 0;
+}
+
+/* sproduct1.html sections */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.property-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    gap: 20px;
+}
+
+.property-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    width: calc(33% - 20px);
+    margin: 10px;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.property-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.property-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-bottom: 2px solid #ddd;
+}
+
+.property-details {
+    padding: 20px;
+}
+
+.property-title {
+    font-size: 1.4em;
+    color: #333;
+    margin: 10px 0;
+}
+
+.property-location {
+    font-size: 1.1em;
+    color: #666;
+    margin: 5px 0;
+}
+
+.property-description {
+    font-size: 1em;
+    color: #777;
+    margin: 10px 0;
+}
+
+.property-price {
+    font-size: 1.3em;
+    color: #e74c3c;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* sproduct2.html sections */
+
+
+/* hero sections */
+
+
+
+.hero-sectionpk {
+    position: relative;
+    background-image: url('https://moneytreerealty.com/assets/img/m3manta.jpg');
+    /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    /* Ensure the background image scrolls with the page */
+    height: 100vh;
+    /* Full viewport height */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    text-align: left;
+}
+
+.hero-contentpk {
+    position: absolute;
+    left: 20px;
+    top: 100px;
+    background: rgba(0, 0, 0, 0.7);
+    /* Semi-transparent background */
+    padding: 30px;
+    border-radius: 12px;
+    width: 400px;
+    /* Width for the content box */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    /* Enhanced shadow */
+}
+
+.hero-contentpk h1 {
+    margin: 0 0 15px;
+    font-size: 36px;
+    /* Larger font size for the heading */
+}
+
+.hero-contentpk p {
+    margin: 0 0 20px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.hero-contentpk .btn {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.3s;
+    /* Smooth background color and transform transitions */
+}
+
+.hero-contentpk .btn:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+    /* Slight lift effect */
+}
+
+.hero-contentpk .btn:active {
+    transform: translateY(1px);
+    /* Slight press effect */
+}
+
+.login-formpk {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    /* Darker semi-transparent background */
+    padding: 30px;
+    border-radius: 12px;
+    /* Increased border-radius for a rounded effect */
+    width: 350px;
+    /* Slightly wider for better spacing */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+
+    /* Enhanced shadow */
+    text-align: left;
+    /* Align text to the left */
+}
+
+.login-formpk h2 {
+    margin: 0 0 20px;
+    font-size: 28px;
+    /* Larger font size for the heading */
+}
+
+.login-formpk label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    /* Slightly bolder font weight */
+    color: #ccc;
+    /* Lighter color for better contrast */
+}
+
+.login-formpk input {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #555;
+    /* Darker border for better visibility */
+    border-radius: 6px;
+    /* Rounded corners for inputs */
+    font-size: 16px;
+    background: #222;
+    /* Dark background for inputs */
+    color: #fff;
+    /* White text for inputs */
+}
+
+.login-formpk input::placeholder {
+    color: #888;
+    /* Lighter placeholder text color */
+}
+
+.login-formpk input:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+.login-formpk button {
+    padding: 12px;
+    background-color: #007BFF;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.3s;
+    /* Smooth background color and transform transitions */
+}
+
+.login-formpk button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+    /* Slight lift effect */
+}
+
+.login-formpk button:active {
+    transform: translateY(1px);
+    /* Slight press effect */
+}
+
+.contentpk {
+    padding: 40px;
+    background-color: #f4f4f4;
+    min-height: 100vh;
+    /* Ensures enough content space */
+}
+
+.contentpk h1 {
+    margin-top: 0;
+    font-size: 36px;
+    color: #333;
+}
+
+.contentpk p {
+    line-height: 1.6;
+    margin: 20px 0;
+}
+
+/* responsive */
+@media (max-width: 768px) {
+    .hero-sectionpk {
+        height: auto;
+        /* Adjust height for smaller screens */
+        padding: 20px;
+    }
+
+    .hero-contentpk {
+        width: 90%;
+        /* Increase width for mobile */
+        padding: 15px;
+        /* Adjust padding for mobile */
+    }
+
+    .login-formpk {
+        width: 90%;
+        /* Increase width for mobile */
+        padding: 15px;
+        /* Adjust padding for mobile */
+        margin: 20px auto;
+        /* Center horizontally */
+    }
+
+    .hero-contentpk h1 {
+        font-size: 24px;
+        /* Adjust font size for mobile */
+    }
+
+    .hero-contentpk p {
+        font-size: 14px;
+        /* Adjust font size for mobile */
+    }
+
+    .login-formpk h2 {
+        font-size: 20px;
+        /* Adjust font size for mobile */
+    }
+
+    .contentpk h1 {
+        font-size: 24px;
+        /* Adjust font size for mobile */
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-contentpk {
+        width: 95%;
+        /* Increase width for very small screens */
+    }
+
+    .login-formpk {
+        width: 95%;
+        /* Increase width for very small screens */
+    }
+}
+
+
+
+
+/* signup From */
+
+
+/* Signup Form Styling */
+.signup-formpk {
+    background-color: #fff;
+    /* White background for the form */
+    padding: 30px;
+    /* Padding around the form */
+    border-radius: 20px;
+    /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow for depth */
+    max-width: 400px;
+    /* Max width for the form container */
+    margin: 1073px;
+    /* Center align the form */
+
+
+}
+
+.signup-formpk h2 {
+    font-size: 2rem;
+    /* Larger font size for the heading */
+    margin-bottom: 20px;
+    /* Space below the heading */
+    text-align: center;
+    /* Center align heading */
+    color: #333;
+    /* Dark color for the heading */
+}
+
+.signup-formpk form {
+    display: flex;
+    flex-direction: column;
+    /* Stack form elements vertically */
+}
+
+.signup-formpk label {
+    font-size: 0.9rem;
+    /* Slightly smaller font size for labels */
+    margin-bottom: 5px;
+    /* Space below labels */
+    color: #666;
+    /* Lighter color for labels */
+}
+
+.signup-formpk input[type="email"],
+.signup-formpk input[type="text"],
+.signup-formpk input[type="Message"] {
+    padding: 10px;
+    /* Padding inside input fields */
+    margin-bottom: 15px;
+    /* Space below input fields */
+    border: 1px solid #ccc;
+    /* Border around input fields */
+    border-radius: 4px;
+    /* Rounded corners for input fields */
+    font-size: 1rem;
+    /* Font size inside input fields */
+}
+
+.signup-formpk button {
+    padding: 10px;
+    /* Padding inside the button */
+    background-color: #007BFF;
+    /* Button background color */
+    color: #fff;
+    /* Text color inside the button */
+    border: none;
+    /* Remove default border */
+    border-radius: 4px;
+    /* Rounded corners for the button */
+    font-size: 1rem;
+    /* Font size for the button */
+    cursor: pointer;
+    /* Pointer cursor on hover */
+    transition: background-color 0.3s;
+    /* Smooth transition for background color */
+}
+
+.signup-formpk button:hover {
+    background-color: #0056b3;
+    /* Darker background color on hover */
+}
+
+
+/* Ensure the Swiper container has a width */
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cities-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.swiper-pagination-bullet {
+    background: #007bff;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: #007bff;
+}
